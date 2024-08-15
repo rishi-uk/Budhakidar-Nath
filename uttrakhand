@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budha Kedar Nath Temple</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #444;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px 20px;
+            display: inline-block;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #007BFF;
+            transform: scale(1.1);
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #0066cc, #003366);
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+        .hero h2 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover {
+            transform: scale(1.02);
+        }
+
+        .section h2 {
+            margin-top: 0;
+            font-size: 1.8em;
+            color: #333;
+        }
+
+        .events-section div, .testimonial {
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial p {
+            font-style: italic;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .testimonial h4 {
+            margin-top: 10px;
+            text-align: right;
+            color: #007BFF;
+        }
+
+        .donation-section form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .donation-section input, .donation-section button {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 1em;
+        }
+
+        .donation-section button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .donation-section button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #444;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-links ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer-links ul li {
+            margin: 0 20px;
+        }
+
+        .footer-links ul li a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links ul li a:hover {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Budha Kedar Nath Temple</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section hero">
+            <h2>Welcome to the Sacred Land of Budha Kedar Nath</h2>
+            <p>Discover the ancient history and serene beauty of Budha Kedar Nath Temple.</p>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Budha Kedar Nath Temple</h2>
+            <p>
+                The Budha Kedar Nath Temple is situated in the quaint village of Budha Kedar, about 59 kilometers from the district headquarters 
+                of Tehri. The temple is nestled amidst lush green hills and the confluence of the rivers Bal Ganga and Dharam Ganga, making it 
+                a picturesque and tranquil location. The temple architecture reflects the traditional Garhwali style and has a timeless charm.
+            </p>
+            <p>
+                Visitors to the temple not only seek blessings but also enjoy the natural beauty and peaceful surroundings. The temple's 
+                annual fair during the Shivaratri festival is a major event that attracts a large number of devotees and tourists.
+            </p>
+        </section>
+
+        <section id="events" class="section events-section">
+            <h2>Upcoming Events</h2>
+            <div>
+                <p><strong>Shivaratri Festival:</strong> March 10th, 2024 - A grand celebration with rituals, music, and a fair.</p>
+            </div>
+            <div>
+                <p><strong>Annual Yatra:</strong> April 5th, 2024 - Pilgrimage to Budha Kedar Nath Temple with devotees from across the region.</p>
+            </div>
+            <div>
+                <p><strong>Temple Renovation Fundraiser:</strong> July 15th, 2024 - Join us in preserving this sacred site.</p>
+            </div>
+        </section>
+
+        <section id="donate" class="section donation-section">
+            <h2>Donate to the Temple</h2>
+            <p>Your contributions help us maintain the temple and support our community services. Please donate generously.</p>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="amount">Donation Amount:</label>
+                <input type="number" id="amount" name="amount" required>
+
+                <button type="submit">Donate Now</button>
+            </form>
+        </section>
+
+        <section id="testimonials" class="section testimonials-section">
+            <h2>What Devotees Say</h2>
+            <div class="testimonial">
+                <p>"Visiting Budha Kedar Nath Temple was a life-changing experience. The peace and tranquility I felt are indescribable."</p>
+                <h4>- Suresh Kumar</h4>
+            </div>
+            <div class="testimonial">
+                <p>"A truly spiritual place with breathtaking views. I felt a deep connection with the divine during my visit."</p>
+                <h4>- Anjali Sharma</h4>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p><strong>Name:</strong> Rishabh</p>
+            <p><strong>Phone:</strong> 7983082685</p>
+            <p><strong>Temple Location: budhakidar nath,tehri garhwal,uttrakhand</strong></p>
